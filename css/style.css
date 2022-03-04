@@ -25,11 +25,52 @@ header.header-y {
 }
 
 main section:first-child {
-    height: 15em;
+    height: 20em;
     background-color: #1c7510af;
 }
 
 main section:last-child {
-    height: 17em;
     background-color: #211f85c9;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section > h2.second-section-title {
+    height: 2em;
+    background-color: #7099cef8;
+}
+
+.float {
+    float: left;
+}
+
+/* second section content settings */
+.s-s-c-s {
+    height: 30em;
+    background-color: #7099cef8;
+}
+
+.second-section-content-aside {
+    width: calc(25% - 1%);
+}
+
+.second-section-central-content {
+    width: 50%;
+}
+
+/* margin of content */
+.mt-1 {
+    margin-top: 1%;
+}
+.mr-1 {
+    margin-right: 1%;
+}
+
+.mb-1 {
+    margin-bottom: 1%;
+}
+/* /margin of content */
