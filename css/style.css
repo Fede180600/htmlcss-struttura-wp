@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.mt-2 {
+    margin-top: 2%;
+}
+
 body {
     background-color: #acacac;
 }
@@ -13,11 +17,19 @@ body {
     width: 85%;
     max-width: 1300px;
     margin: auto;
-    background-color: #670070af;
 }
 
 header.header-y {
     height: 3.5em;
     background-color: #772222c9;
-    margin-top: 2%;
+}
+
+main section:first-child {
+    height: 15em;
+    background-color: #1c7510af;
+}
+
+main section:last-child {
+    height: 17em;
+    background-color: #211f85c9;
 }
