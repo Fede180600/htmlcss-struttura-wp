@@ -15,7 +15,7 @@ body {
 
 .container {
     width: 85%;
-    max-width: 1300px;
+    max-width: 1500px;
     margin: auto;
 }
 
@@ -62,7 +62,7 @@ section > h2.second-section-title {
     width: 50%;
 }
 
-/* margin of content */
+/* margin of content 2nd section */
 .mt-1 {
     margin-top: 1%;
 }
@@ -73,4 +73,11 @@ section > h2.second-section-title {
 .mb-1 {
     margin-bottom: 1%;
 }
-/* /margin of content */
+/* /margin of content 2nd section*/
+
+/* FOOTER  */
+footer#footer {
+    margin-top: 1%;
+    height: 2em;
+    background-color: #ce1af1af;
+}
