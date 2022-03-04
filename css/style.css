@@ -1,0 +1,23 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #acacac;
+}
+
+.container {
+    width: 85%;
+    max-width: 1300px;
+    margin: auto;
+    background-color: #670070af;
+}
+
+header.header-y {
+    height: 3.5em;
+    background-color: #772222c9;
+    margin-top: 2%;
+}
